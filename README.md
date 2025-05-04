@@ -1,6 +1,6 @@
 # 📝 ToDo Application (Spring Boot + Spring Security + MySQL)
 
-## A simple and secure ToDo List Web Application built with Spring Boot, featuring:
+## A simple and secure ToDo List Web Application built with Spring Boot
       - ✅ User authentication with Spring Security
       - 🛡️ Session-based login and role-based access control
       - 📄 Add, view, and delete ToDos with form validation
