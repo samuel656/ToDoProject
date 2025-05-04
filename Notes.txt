@@ -1,0 +1,26 @@
+Spring Boot Starter Validation - Spring Boot will do validations to server pages
+
+Steps:
+1. add spring boot starter validation in pom.xml
+2. command bean (form backing object)
+    - implementing 2 way binding (addTodo.jsp and ToDOController.java)
+3. Add validations to the bean - ToDo.java
+    @Size() - parameters = min,max,message
+    @Valid @ModelAttribute - whereever we are doing binding, add @Valid in the controller
+    BindingResult - catches validation errors and returns to same page by using method hasErrors()
+4. Display validations errors in the view
+    Form tag in springboot contains an Form:Errors to display error message
+
+
+Spring configuration:
+default
+1. all urls are protected
+2. a login form is shown for unauthorized requests
+we need to configure
+3. csrf disable (Cross-Site Request Forgery)
+4. Frames doesn't allow
+
+Using MySql DataBase:
+
+-> create a database in mysql server, because mysql doesn't allowing to create database
+            - create database todoproject;
