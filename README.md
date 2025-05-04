@@ -1,24 +1,23 @@
 # 📝 ToDo Application (Spring Boot + Spring Security + MySQL)
 
 ## A simple and secure ToDo List Web Application built with Spring Boot, featuring:
-
-   **   - ✅ User authentication with Spring Security
+      - ✅ User authentication with Spring Security
       - 🛡️ Session-based login and role-based access control
       - 📄 Add, view, and delete ToDos with form validation
       - 🗓️ Target dates and completion status tracking
       - 💾 Data persistence using MySQL
       - 🔒 CSRF protection (configurable)
-      - 📦 Layered architecture using MVC pattern**
+      - 📦 Layered architecture using MVC pattern
 
 # 📌 Technologies Used
-      1. Java 17+
-      2. Spring Boot
-      3. Spring MVC
-      4. Spring Security
-      5. Spring Data JPA
-      6. Database - MySQL
-      7. JSP + JSTL (for views)
-      8. Bootstrap (for basic UI styling)
+        1. Java 17+
+        2. Spring Boot
+        3. Spring MVC
+        4. Spring Security
+        5. Spring Data JPA
+        6. Database - MySQL
+        7. JSP + JSTL (for views)
+        8. Bootstrap (for basic UI styling)
 
 # ⚙️ Features
       - Login/Logout functionality
